@@ -654,7 +654,7 @@
         }]
     },
     "enemy_hp_up_1": {
-        "description": "Enemies Max HP +20%",
+        "description": "All enemies Max HP +20%",
         "points": 1,
         "group": "enemy_hp_up",
         "runes": [{
@@ -677,7 +677,7 @@
         }]
     },
     "enemy_hp_up_2": {
-        "description": "Enemies Max HP +60%",
+        "description": "All enemies Max HP +60%",
         "points": 2,
         "group": "enemy_hp_up",
         "runes": [{
@@ -700,7 +700,7 @@
         }]
     },
     "enemy_hp_up_3": {
-        "description": "Enemies Max HP +110%",
+        "description": "All enemies Max HP +110%",
         "points": 3,
         "group": "enemy_hp_up",
         "runes": [{
@@ -769,7 +769,7 @@
         }]
     },
     "ally_hp_down_1": {
-        "description": "All allies’ Max HP -15%",
+        "description": "Ally Max HP -15%",
         "points": 1,
         "group": "ally_hp_down",
         "runes": [{
@@ -792,7 +792,7 @@
         }]
     },
     "ally_hp_down_2": {
-        "description": "All allies’ Max HP -30%",
+        "description": "Ally Max HP -30%",
         "points": 2,
         "group": "ally_hp_down",
         "runes": [{
@@ -815,7 +815,7 @@
         }]
     },
     "ally_hp_down_3": {
-        "description": "All allies’ Max HP -50%",
+        "description": "Ally Max HP -50%",
         "points": 3,
         "group": "ally_hp_down",
         "runes": [{
@@ -838,7 +838,7 @@
         }]
     },
     "guard_specialist_1": {
-        "description": "Guard and Specialist DP cost doubled",
+        "description": "Guards and Specialists DP cost doubled",
         "points": 1,
         "group": "class_limit",
         "runes": [{
@@ -861,7 +861,7 @@
         }]
     },
     "guard_specialist_2": {
-        "description": "DP Costs of Guards and Specialists is tripled, and the redeployment time extended by 50%.",
+        "description": "Guards and Specialists DP cost tripled, Redeployment Time +50%.",
         "points": 2,
         "group": "class_limit",
         "runes": [{
@@ -902,7 +902,7 @@
         }]
     },
     "supporter_caster_1": {
-        "description": "Supporter and Caster DP Cost doubled",
+        "description": "Supporters and Casters DP Cost doubled",
         "points": 1,
         "group": "class_limit",
         "runes": [{
@@ -925,7 +925,7 @@
         }]
     },
     "supporter_caster_2": {
-        "description": "Supporter and Caster DP Cost tripled, and the redeployment time extended by 50%.",
+        "description": "Supporters and Casters DP cost tripled, Redeployment Time +50%.",
         "points": 2,
         "group": "class_limit",
         "runes": [{
@@ -966,7 +966,7 @@
         }]
     },
     "dp_down_1": {
-        "description": "DP Regeneration reduced by -25%",
+        "description": "Natural DP Regeneration -25%",
         "points": 1,
         "group": "dp_down",
         "runes": [{
@@ -989,7 +989,7 @@
         }]
     },
     "dp_down_2": {
-        "description": "DP Regeneration reduced by -50%",
+        "description": "Natural DP Regeneration -50%",
         "points": 2,
         "group": "dp_down",
         "runes": [{
@@ -1012,7 +1012,7 @@
         }]
     },
     "dp_down_3": {
-        "description": "DP Regeneration reduced by -75%",
+        "description": "Natural DP Regeneration -75%",
         "points": 3,
         "group": "dp_down",
         "runes": [{
@@ -1179,7 +1179,7 @@
         }]
     },
     "max_hp_1": {
-        "description": "No enemies escape (Level HP set to 1)",
+        "description": "HP seal decreased to 1",
         "points": 1,
         "group": null,
         "runes": [{
@@ -1200,7 +1200,7 @@
         }]
     },
     "ally_atk_down": {
-        "description": "Allies ATK -20%",
+        "description": "Ally ATK -20%",
         "points": 1,
         "group": null,
         "runes": [{
@@ -1223,7 +1223,7 @@
         }]
     },
     "enemy_def_up": {
-        "description": "Enemy DEF +200",
+        "description": "All enemies DEF +200",
         "points": 1,
         "group": null,
         "runes": [{
@@ -1280,7 +1280,7 @@
         }]
     },
     "sand_dmg_2": {
-        "description": "Sandstom’s HP loss effect +20%",
+        "description": "Sandstom's HP loss effect +20%",
         "points": 2,
         "group": "sandstorm_hp",
         "runes": [
