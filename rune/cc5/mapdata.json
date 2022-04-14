@@ -1,0 +1,10 @@
+{
+    "levelId": "Obt/Rune/level_rune_07-01",
+    "mapId": "rune_07-01",
+    "code": "Kazimierz",
+    "name": "Arena 8",
+    "loadingPicId": "loading_Kazimierz_Final",
+    "description": "Rhodes Island has been invited to participate in a sparring competition against Kazimierz knights. Please make full use of the venue to seize ultimate victory.",
+    "picId": "ccmap_arena",
+    "logoPicId": "logo_kazimierz"
+}
