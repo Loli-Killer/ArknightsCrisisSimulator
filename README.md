@@ -7,6 +7,10 @@ ____________
 # ArknightsCrisisSimulator
 Proxy Arknights Contingency Contract info in order to replay past permanent maps with their respective risks
 _____
+## Known Issues
+### CC4 
+- Mudrock golem risk 2 and 3 being immune to slow only and not being immune to bind (Coz I have no idea what's the key for bind immune)
+_____
 ## How To
 
 1. Install [mitmproxy](https://mitmproxy.org/) and [python3](https://www.python.org/downloads/).
@@ -45,7 +49,7 @@ CC Stages
 
 - [x] CC#6
 - [x] CC#5
-- [ ] CC#4
+- [x] CC#4
 - [ ] CC#3
 - [ ] CC#2
 - [ ] CC#1

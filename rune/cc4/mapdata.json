@@ -1,0 +1,10 @@
+{
+    "levelId": "Obt/Rune/level_rune_06-01",
+    "mapId": "rune_06-01",
+    "code": "Barrenlands",
+    "name": "Abandoned Mine",
+    "loadingPicId": "loadingE2",
+    "description": "This abandoned mine far from the city has become a den of outlaws. Hurry up and clear them out to restore order to the area.",
+    "picId": "ccmap_miningarea",
+    "logoPicId": "logo_kazimierz"
+}

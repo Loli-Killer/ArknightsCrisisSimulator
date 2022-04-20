@@ -60,6 +60,10 @@ class AKRedirect:
       if 'gs.arknights.global' in flow.request.pretty_host:
         flow.request.host = "localhost"
         flow.request.scheme = 'http'
+        
+    if 'android.bugly.qq.com' in flow.request.pretty_host:
+        flow.request.host = "localhost"
+        flow.request.scheme = 'http'
 
   def response(self, flow: mitmproxy.http.HTTPFlow):
     # Modify cc info before sending response back to client
