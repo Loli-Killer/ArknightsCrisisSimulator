@@ -8,8 +8,12 @@ ____________
 Proxy Arknights Contingency Contract info in order to replay past permanent maps with their respective risks
 _____
 ## Known Issues
+### CC3
+- Haven't tested the risk values correctly since I didn't play high risk on this map so might have some differences. Open an issue if you think a particular risk seems wrong.
+
 ### CC4 
 - Mudrock golem risk 2 and 3 being immune to slow only and not being immune to bind (Coz I have no idea what's the key for bind immune)
+- Haven't tested the risk values correctly since I didn't play high risk on this map so might have some differences. Open an issue if you think a particular risk seems wrong.
 _____
 ## How To
 
