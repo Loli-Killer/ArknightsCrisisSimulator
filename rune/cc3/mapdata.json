@@ -1,0 +1,10 @@
+{
+    "levelId": "Obt/Rune/level_rune_05-01",
+    "mapId": "rune_05-01",
+    "code": "Barrenlands",
+    "name": "Windswept Highland",
+    "loadingPicId": "loading3",
+    "description": "These perennially windswept highlands, far away from the paths of any nomadic cities, are believed to harbor hostile enemy forces. Investigate the situation and repel the threat.",
+    "picId": "ccmap_highland",
+    "logoPicId": "logo_wild"
+}
