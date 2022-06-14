@@ -414,7 +414,7 @@
         }]
     },
     "colossus_slow_bind_2": {
-        "description": "All [Mudrock Colossus] Max HP +50%, ATK +60%, RES +30. Immune to Slow (sluggish)",
+        "description": "All [Mudrock Colossus] Max HP +50%, ATK +60%, RES +30. Immune to Slow (sluggish) and Bind.",
         "points": 2,
         "group": "colossus",
         "runes": [{
@@ -488,10 +488,33 @@
                     "valueStr": "sluggishimmue"
                 }
             ]
+        },
+        {
+            "key": "enemy_dynamic_ability_new",
+            "selector": {
+                "professionMask": 0,
+                "buildableMask": 0,
+                "charIdFilter": null,
+                "enemyIdFilter": null,
+                "skillIdFilter": null,
+                "tileKeyFilter": null
+            },
+            "blackboard": [
+                {
+                    "key": "enemy",
+                    "value": 0,
+                    "valueStr": "enemy_1092_mdgint"
+                },
+                {
+                    "key": "key",
+                    "value": 0,
+                    "valueStr": "unmovableimmue"
+                }
+            ]
         }]
     },
     "colossus_slow_bind_3": {
-        "description": "All [Mudrock Colossus] Max HP +90%, ATK +90%, RES +45. Immune to Slow (sluggish)",
+        "description": "All [Mudrock Colossus] Max HP +90%, ATK +90%, RES +45. Immune to Slow (sluggish) and Bind.",
         "points": 3,
         "group": "colossus",
         "runes": [{
@@ -563,6 +586,29 @@
                     "key": "key",
                     "value": 0,
                     "valueStr": "sluggishimmue"
+                }
+            ]
+        },
+        {
+            "key": "enemy_dynamic_ability_new",
+            "selector": {
+                "professionMask": 0,
+                "buildableMask": 0,
+                "charIdFilter": null,
+                "enemyIdFilter": null,
+                "skillIdFilter": null,
+                "tileKeyFilter": null
+            },
+            "blackboard": [
+                {
+                    "key": "enemy",
+                    "value": 0,
+                    "valueStr": "enemy_1092_mdgint"
+                },
+                {
+                    "key": "key",
+                    "value": 0,
+                    "valueStr": "unmovableimmue"
                 }
             ]
         }]

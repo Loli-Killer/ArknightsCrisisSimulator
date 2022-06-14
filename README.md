@@ -12,7 +12,6 @@ _____
 - Haven't tested the risk values correctly since I didn't play high risk on this map so might have some differences. Open an issue if you think a particular risk seems wrong.
 
 ### CC4 
-- Mudrock golem risk 2 and 3 being immune to slow only and not being immune to bind (Coz I have no idea what's the key for bind immune)
 - Haven't tested the risk values correctly since I didn't play high risk on this map so might have some differences. Open an issue if you think a particular risk seems wrong.
 _____
 ## How To
@@ -54,7 +53,7 @@ CC Stages
 - [x] CC#6
 - [x] CC#5
 - [x] CC#4
-- [ ] CC#3
+- [x] CC#3
 - [ ] CC#2
 - [ ] CC#1
 - [ ] CC#0
