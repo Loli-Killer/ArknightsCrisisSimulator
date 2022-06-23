@@ -50,6 +50,7 @@ ______
 
 CC Stages
 
+- [x] CC#7
 - [x] CC#6
 - [x] CC#5
 - [x] CC#4

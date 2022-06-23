@@ -2,7 +2,7 @@
     "sarkaz_grudgebearer_1": {
         "description": "All [Sarkaz Grudgebearer] Max HP +30%, ATK +30%",
         "points": 1,
-        "group": "sarkaz_grudgebearer",
+        "mutexGroupKey": "sarkaz_grudgebearer",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -33,7 +33,7 @@
     "sarkaz_grudgebearer_2": {
         "description": "All [Sarkaz Grudgebearer] Max HP +60%, ATK +50%, attacks ignores target RES by 40%",
         "points": 2,
-        "group": "sarkaz_grudgebearer",
+        "mutexGroupKey": "sarkaz_grudgebearer",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -92,7 +92,7 @@
     "sarkaz_grudgebearer_3": {
         "description": "All [Sarkaz Grudgebearer] Max HP +100%, ATK +80%, attacks ignores target RES by 70%",
         "points": 3,
-        "group": "sarkaz_grudgebearer",
+        "mutexGroupKey": "sarkaz_grudgebearer",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -151,7 +151,7 @@
     "sarkaz_lancer_1": {
         "description": "All [Sarkaz Lancers] Max HP +50%, speed-based dash damage becomes 600%",
         "points": 1,
-        "group": "sarkaz_lancer",
+        "mutexGroupKey": "sarkaz_lancer",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -200,7 +200,7 @@
     "sarkaz_lancer_2": {
         "description": "All [Sarkaz Lancers] Max HP +80%, speed-based dash damage becomes 1000%, dash acceleration is now 1.5x",
         "points": 2,
-        "group": "sarkaz_lancer",
+        "mutexGroupKey": "sarkaz_lancer",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -254,7 +254,7 @@
     "sarkaz_bladeweaver_1": {
         "description": "All [Sarkaz Bladeweavers] Max HP +30%, ASPD +30, DEF +30%, Movement speed +20%",
         "points": 1,
-        "group": "sarkaz_bladeweaver",
+        "mutexGroupKey": "sarkaz_bladeweaver",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -295,7 +295,7 @@
     "sarkaz_bladeweaver_2": {
         "description": "All [Sarkaz Bladeweavers] Max HP +50%, ASPD +50, DEF +50%, movement speed +30%, Idle state timer decreased to 100s",
         "points": 2,
-        "group": "sarkaz_bladeweaver",
+        "mutexGroupKey": "sarkaz_bladeweaver",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -359,7 +359,7 @@
     "sarkaz_bladeweaver_3": {
         "description": "All [Sarkaz Bladeweavers] Max HP +80%, ASPD +80, DEF +80%, movement speed +50%, Idle state timer decreased to 60s",
         "points": 3,
-        "group": "sarkaz_bladeweaver",
+        "mutexGroupKey": "sarkaz_bladeweaver",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -423,7 +423,7 @@
     "sarkaz_sentinel_1": {
         "description": "All [Sarkaz Sentinel Leader] Movement Speed +10%, alerted state grants enemy 60% bonus ATK and DEF",
         "points": 1,
-        "group": "sarkaz_sentinel",
+        "mutexGroupKey": "sarkaz_sentinel",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -482,7 +482,7 @@
     "sarkaz_sentinel_2": {
         "description": "All [Sarkaz Sentinel Leader] Movement Speed +20%, alerted state grants enemy 75% bonus ATK and DEF",
         "points": 2,
-        "group": "sarkaz_sentinel",
+        "mutexGroupKey": "sarkaz_sentinel",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -541,7 +541,7 @@
     "sarkaz_sentinel_3": {
         "description": "All [Sarkaz Sentinel Leader] Movement Speed +30%, alerted state grants enemy 100% bonus ATK and DEF",
         "points": 3,
-        "group": "sarkaz_sentinel",
+        "mutexGroupKey": "sarkaz_sentinel",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -600,7 +600,7 @@
     "enemy_atk_up_1": {
         "description": "All enemies ATK +25%",
         "points": 1,
-        "group": "enemy_atk_up",
+        "mutexGroupKey": "enemy_atk_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -623,7 +623,7 @@
     "enemy_atk_up_2": {
         "description": "All enemies ATK +45%",
         "points": 2,
-        "group": "enemy_atk_up",
+        "mutexGroupKey": "enemy_atk_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -646,7 +646,7 @@
     "enemy_atk_up_3": {
         "description": "All enemies ATK +75%",
         "points": 3,
-        "group": "enemy_atk_up",
+        "mutexGroupKey": "enemy_atk_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -669,7 +669,7 @@
     "enemy_hp_up_1": {
         "description": "All enemies Max HP +30%",
         "points": 1,
-        "group": "enemy_hp_up",
+        "mutexGroupKey": "enemy_hp_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -692,7 +692,7 @@
     "enemy_hp_up_2": {
         "description": "All enemies Max HP +70%",
         "points": 2,
-        "group": "enemy_hp_up",
+        "mutexGroupKey": "enemy_hp_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -715,7 +715,7 @@
     "enemy_hp_up_3": {
         "description": "All enemies Max HP +120%",
         "points": 3,
-        "group": "enemy_hp_up",
+        "mutexGroupKey": "enemy_hp_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -738,7 +738,7 @@
     "ally_atk_aspd_down_1": {
         "description": "Ally ATK -10%, ASPD -10",
         "points": 1,
-        "group": "ally_atk_aspd_down",
+        "mutexGroupKey": "ally_atk_aspd_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -779,7 +779,7 @@
     "ally_atk_aspd_down_2": {
         "description": "Ally ATK -20%, ASPD -20",
         "points": 2,
-        "group": "ally_atk_aspd_down",
+        "mutexGroupKey": "ally_atk_aspd_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -820,7 +820,7 @@
     "ally_atk_aspd_down_3": {
         "description": "Ally ATK -30%, ASPD -30",
         "points": 3,
-        "group": "ally_atk_aspd_down",
+        "mutexGroupKey": "ally_atk_aspd_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -861,7 +861,7 @@
     "ally_hp_down_1": {
         "description": "Ally Max HP -15%",
         "points": 1,
-        "group": "ally_hp_down",
+        "mutexGroupKey": "ally_hp_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -884,7 +884,7 @@
     "ally_hp_down_2": {
         "description": "Ally Max HP -30%",
         "points": 2,
-        "group": "ally_hp_down",
+        "mutexGroupKey": "ally_hp_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -907,7 +907,7 @@
     "ally_hp_down_3": {
         "description": "Ally Max HP -50%",
         "points": 3,
-        "group": "ally_hp_down",
+        "mutexGroupKey": "ally_hp_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -930,7 +930,7 @@
     "tile_ban_1": {
         "description": "7 grids are forbidden for deployment",
         "points": 1,
-        "group": "tile_ban",
+        "mutexGroupKey": "tile_ban",
         "runes": [{
             "key": "global_forbid_location",
             "selector": {
@@ -953,7 +953,7 @@
     "tile_ban_2": {
         "description": "10 grids are forbidden for deployment",
         "points": 2,
-        "group": "tile_ban",
+        "mutexGroupKey": "tile_ban",
         "runes": [{
             "key": "global_forbid_location",
             "selector": {
@@ -976,7 +976,7 @@
     "tile_ban_3": {
         "description": "14 grids are forbidden for deployment",
         "points": 3,
-        "group": "tile_ban",
+        "mutexGroupKey": "tile_ban",
         "runes": [{
             "key": "global_forbid_location",
             "selector": {
@@ -999,7 +999,7 @@
     "vent_change_1": {
         "description": "4 [Originium Jetstreams] will have their locations and directions changed",
         "points": 1,
-        "group": "vent_change",
+        "mutexGroupKey": "vent_change",
         "runes": [{
             "key": "level_predefines_enable",
             "selector": {
@@ -1055,7 +1055,7 @@
     "vent_change_2": {
         "description": "7 [Originium Jetstreams] will have their locations and directions changed and if deployment orientation is perpendicular to air stream then ATK -15%",
         "points": 2,
-        "group": "vent_change",
+        "mutexGroupKey": "vent_change",
         "runes": [{
             "key": "level_predefines_enable",
             "selector": {
@@ -1162,7 +1162,7 @@
     "specialist_1": {
         "description": "Specialists DP cost doubled",
         "points": 1,
-        "group": "class_limit",
+        "mutexGroupKey": "class_limit",
         "runes": [{
             "key": "char_cost_mul",
             "selector": {
@@ -1185,7 +1185,7 @@
     "specialist_2": {
         "description": "Specialists DP cost tripled, Redeployment Time +50%.",
         "points": 2,
-        "group": "class_limit",
+        "mutexGroupKey": "class_limit",
         "runes": [{
             "key": "char_cost_mul",
             "selector": {
@@ -1226,7 +1226,7 @@
     "max_hp_1": {
         "description": "HP seal decreased to 1",
         "points": 1,
-        "group": null,
+        "mutexGroupKey": null,
         "runes": [{
             "key": "global_lifepoint",
             "selector": {
@@ -1247,7 +1247,7 @@
     "enemy_def_up_1": {
         "description": "Enemy DEF +150",
         "points": 1,
-        "group": "enemy_def_up",
+        "mutexGroupKey": "enemy_def_up",
         "runes": [{
             "key": "enemy_attribute_add",
             "selector": {
@@ -1270,7 +1270,7 @@
     "max_squad_1": {
         "description": "Maximum 10 operators in squad",
         "points": 1,
-        "group": "max_squad_deploy_limit",
+        "mutexGroupKey": "max_squad_deploy_limit",
         "runes": [{
             "key": "global_squad_num_limit",
             "selector": {

@@ -1,0 +1,10 @@
+{
+    "levelId": "Obt/Rune/level_rune_09-01",
+    "mapId": "rune_09-01",
+    "code": "Yan",
+    "name": "Foothill Hui-ch'i",
+    "loadingPicId": "loading_Painting_Day",
+    "description": "Dusk has departed Mount Hui-ch'i, yet the creatures born from her brushstrokes still remain, and it may take a bit of work to get this thick ink to fade.\n<@lv.item><Mark of Hui and Ming></> Operators deployed on it will earn a Hui-Ming attribute\n<@lv.item><Mark of Dusk and Dawn></> On first passing through, enemies will change attribute\n<@lv.item><Two-Step Firecracker mk2></> Deals Arts damage to enemies in the four adjacent tiles, changing Hui-Ming attributes within its range",
+    "picId": "ccmap_foothill_huichi",
+    "logoPicId": "logo_sui"
+}

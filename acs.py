@@ -38,13 +38,13 @@ def check_conflicts():
         for key in keys:
             if key.startswith(f"{cc_id}_"):
                 if values[key] == True:
-                    group = all_risks[key.split(f"{cc_id}_")[1]]["group"]
+                    group = all_risks[key.split(f"{cc_id}_")[1]]["mutexGroupKey"]
                     if group:
                         enabled_checkboxs.append(key)
                         enabled_groups.append(group)
 
         for risk in all_risks:
-            if all_risks[risk]["group"] in enabled_groups:
+            if all_risks[risk]["mutexGroupKey"] in enabled_groups:
                 if f"{cc_id}_{risk}" not in enabled_checkboxs:
                     window[f"{cc_id}_{risk}"].Update(disabled=True)
             else:

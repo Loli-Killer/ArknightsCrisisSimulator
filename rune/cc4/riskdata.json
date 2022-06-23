@@ -2,7 +2,7 @@
     "bigbob_mudrock_1": {
         "description": "[Big Bob] and [Mudrock] ATK +30%, Max HP +30%, RES +15",
         "points": 1,
-        "group": "bigbob_mudrock",
+        "mutexGroupKey": "bigbob_mudrock",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -56,7 +56,7 @@
     "bigbob_mudrock_2": {
         "description": "[Big Bob] and [Mudrock] ATK +60%, Max HP +60%, RES +30. [Big Bob] DEF +50%, [Mudrock] shield +50%",
         "points": 2,
-        "group": "bigbob_mudrock",
+        "mutexGroupKey": "bigbob_mudrock",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -181,7 +181,7 @@
     "bigbob_mudrock_3": {
         "description": "[Big Bob] and [Mudrock] ATK +90%, Max HP +100%, RES +45. [Big Bob] DEF +100%, [Mudrock] shield +100% and shield cooldown reduced to 70% of original value.",
         "points": 3,
-        "group": "bigbob_mudrock",
+        "mutexGroupKey": "bigbob_mudrock",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -362,7 +362,7 @@
     "colossus_1": {
         "description": "All [Mudrock Colossus] Max HP +25%, ATK +30%, RES +15",
         "points": 1,
-        "group": "colossus",
+        "mutexGroupKey": "colossus",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -416,7 +416,7 @@
     "colossus_slow_bind_2": {
         "description": "All [Mudrock Colossus] Max HP +50%, ATK +60%, RES +30. Immune to Slow (sluggish) and Bind.",
         "points": 2,
-        "group": "colossus",
+        "mutexGroupKey": "colossus",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -516,7 +516,7 @@
     "colossus_slow_bind_3": {
         "description": "All [Mudrock Colossus] Max HP +90%, ATK +90%, RES +45. Immune to Slow (sluggish) and Bind.",
         "points": 3,
-        "group": "colossus",
+        "mutexGroupKey": "colossus",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -616,7 +616,7 @@
     "colossus_stun_2": {
         "description": "All [Mudrock Colossus] Max HP +50%, ATK +60%, RES +30. Immune to Stun",
         "points": 2,
-        "group": "colossus",
+        "mutexGroupKey": "colossus",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -693,7 +693,7 @@
     "colossus_stun_3": {
         "description": "All [Mudrock Colossus] Max HP +90%, ATK +90%, RES +45. Immune to Stun",
         "points": 3,
-        "group": "colossus",
+        "mutexGroupKey": "colossus",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -770,7 +770,7 @@
     "enemy_atk_up_1": {
         "description": "All enemies ATK +15%",
         "points": 1,
-        "group": "enemy_atk_up",
+        "mutexGroupKey": "enemy_atk_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -793,7 +793,7 @@
     "enemy_atk_up_2": {
         "description": "All enemies ATK +40%",
         "points": 2,
-        "group": "enemy_atk_up",
+        "mutexGroupKey": "enemy_atk_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -816,7 +816,7 @@
     "enemy_atk_up_3": {
         "description": "All enemies ATK +80%",
         "points": 3,
-        "group": "enemy_atk_up",
+        "mutexGroupKey": "enemy_atk_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -839,7 +839,7 @@
     "enemy_hp_up_1": {
         "description": "All enemies Max HP +30%",
         "points": 1,
-        "group": "enemy_hp_up",
+        "mutexGroupKey": "enemy_hp_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -862,7 +862,7 @@
     "enemy_hp_up_2": {
         "description": "All enemies Max HP +70%",
         "points": 2,
-        "group": "enemy_hp_up",
+        "mutexGroupKey": "enemy_hp_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -885,7 +885,7 @@
     "enemy_hp_up_3": {
         "description": "All enemies Max HP +120%",
         "points": 3,
-        "group": "enemy_hp_up",
+        "mutexGroupKey": "enemy_hp_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -908,7 +908,7 @@
     "ally_atk_down_1": {
         "description": "Ally ATK -15%",
         "points": 1,
-        "group": "ally_atk_down",
+        "mutexGroupKey": "ally_atk_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -931,7 +931,7 @@
     "ally_atk_down_2": {
         "description": "Ally ATK -30%",
         "points": 2,
-        "group": "ally_atk_down",
+        "mutexGroupKey": "ally_atk_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -954,7 +954,7 @@
     "ally_atk_down_3": {
         "description": "Ally ATK -50%",
         "points": 3,
-        "group": "ally_atk_down",
+        "mutexGroupKey": "ally_atk_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -977,7 +977,7 @@
     "ally_hp_down_1": {
         "description": "Ally Max HP -15%",
         "points": 1,
-        "group": "ally_hp_down",
+        "mutexGroupKey": "ally_hp_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -1000,7 +1000,7 @@
     "ally_hp_down_2": {
         "description": "Ally Max HP -30%",
         "points": 2,
-        "group": "ally_hp_down",
+        "mutexGroupKey": "ally_hp_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -1023,7 +1023,7 @@
     "ally_hp_down_3": {
         "description": "Ally Max HP -50%",
         "points": 3,
-        "group": "ally_hp_down",
+        "mutexGroupKey": "ally_hp_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -1046,7 +1046,7 @@
     "dp_down_1": {
         "description": "Natural DP Regeneration -30%",
         "points": 1,
-        "group": "dp_down",
+        "mutexGroupKey": "dp_down",
         "runes": [{
             "key": "global_cost_recovery_mul",
             "selector": {
@@ -1069,7 +1069,7 @@
     "dp_down_2": {
         "description": "Natural DP Regeneration -60%",
         "points": 2,
-        "group": "dp_down",
+        "mutexGroupKey": "dp_down",
         "runes": [{
             "key": "global_cost_recovery_mul",
             "selector": {
@@ -1092,7 +1092,7 @@
     "max_squad_1": {
         "description": "Maximum 10 operators in squad",
         "points": 1,
-        "group": "max_squad_deploy_limit",
+        "mutexGroupKey": "max_squad_deploy_limit",
         "runes": [{
             "key": "global_squad_num_limit",
             "selector": {
@@ -1115,7 +1115,7 @@
     "max_squad_2": {
         "description": "Maximum 7 operators in squad",
         "points": 2,
-        "group": "max_squad_deploy_limit",
+        "mutexGroupKey": "max_squad_deploy_limit",
         "runes": [{
             "key": "global_squad_num_limit",
             "selector": {
@@ -1138,7 +1138,7 @@
     "deploy_limit_2": {
         "description": "Deploy Limit reduced to 5",
         "points": 2,
-        "group": "max_squad_deploy_limit",
+        "mutexGroupKey": "max_squad_deploy_limit",
         "runes": [{
             "key": "global_placable_char_num_add",
             "selector": {
@@ -1161,7 +1161,7 @@
     "tile_ban_1": {
         "description": "5 grids are forbidden for deployment",
         "points": 1,
-        "group": "tile_ban",
+        "mutexGroupKey": "tile_ban",
         "runes": [{
             "key": "global_forbid_location",
             "selector": {
@@ -1184,7 +1184,7 @@
     "tile_ban_2": {
         "description": "9 grids are forbidden for deployment",
         "points": 2,
-        "group": "tile_ban",
+        "mutexGroupKey": "tile_ban",
         "runes": [{
             "key": "global_forbid_location",
             "selector": {
@@ -1207,7 +1207,7 @@
     "guard_specialist_1": {
         "description": "Guards and Specialists DP cost doubled",
         "points": 1,
-        "group": "class_limit",
+        "mutexGroupKey": "class_limit",
         "runes": [{
             "key": "char_cost_mul",
             "selector": {
@@ -1230,7 +1230,7 @@
     "guard_specialist_2": {
         "description": "Guards and Specialists DP cost tripled, Redeployment Time +50%.",
         "points": 2,
-        "group": "class_limit",
+        "mutexGroupKey": "class_limit",
         "runes": [{
             "key": "char_cost_mul",
             "selector": {
@@ -1271,7 +1271,7 @@
     "supporter_caster_1": {
         "description": "Supporters and Casters DP cost doubled",
         "points": 1,
-        "group": "class_limit",
+        "mutexGroupKey": "class_limit",
         "runes": [{
             "key": "char_cost_mul",
             "selector": {
@@ -1294,7 +1294,7 @@
     "supporter_caster_2": {
         "description": "Supporters and Casters DP cost tripled, Redeployment Time +50%.",
         "points": 2,
-        "group": "class_limit",
+        "mutexGroupKey": "class_limit",
         "runes": [{
             "key": "char_cost_mul",
             "selector": {
@@ -1335,7 +1335,7 @@
     "max_hp_1": {
         "description": "HP seal decreased to 1",
         "points": 1,
-        "group": null,
+        "mutexGroupKey": null,
         "runes": [{
             "key": "global_lifepoint",
             "selector": {
@@ -1356,7 +1356,7 @@
     "redeployment_up_1": {
         "description": "Operator Redeployment time +75%",
         "points": 1,
-        "group": null,
+        "mutexGroupKey": null,
         "runes": [{
             "key": "char_respawntime_mul",
             "selector": {
@@ -1379,7 +1379,7 @@
     "enemy_res_up_1": {
         "description": "All enemies RES +25",
         "points": 1,
-        "group": "enemy_res_up",
+        "mutexGroupKey": "enemy_res_up",
         "runes": [{
             "key": "enemy_attribute_add",
             "selector": {
@@ -1402,7 +1402,7 @@
     "rock_grid_remove_1": {
         "description": "4 [Rock Grid] are broken at the start",
         "points": 1,
-        "group": null,
+        "mutexGroupKey": null,
         "runes": [{
             "key": "level_predefines_enable",
             "selector": {
@@ -1438,7 +1438,7 @@
     "ally_aspd_down_1": {
         "description": "Ally ASPD -30",
         "points": 1,
-        "group": "ally_aspd_down",
+        "mutexGroupKey": "ally_aspd_down",
         "runes": [{
             "key": "char_attribute_add",
             "selector": {
@@ -1461,7 +1461,7 @@
     "enemy_mspeed_up_1": {
         "description": "All enemies Movement Speed +50%",
         "points": 1,
-        "group": "enemy_mspeed_up",
+        "mutexGroupKey": "enemy_mspeed_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {

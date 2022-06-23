@@ -2,7 +2,7 @@
     "hammer_bow_1": {
         "description": "[Corrupted Knight] and [Withered Knight] Max HP +40%, ATK +20%, DEF +20%, RES +10",
         "points": 1,
-        "group": "hammer_bow",
+        "mutexGroupKey": "hammer_bow",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -61,7 +61,7 @@
     "hammer_bow_tag_2": {
         "description": "[Corrupted Knight] and [Withered Knight] Max HP +50%, ATK +25%, ASPD increased to 150 when enraged. [Corrupted Knight] DEF +50%, [Withered Knight] RES +15 and appears on field earlier",
         "points": 2,
-        "group": "hammer_bow",
+        "mutexGroupKey": "hammer_bow",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -195,7 +195,7 @@
     "hammer_bow_tag_3": {
         "description": "[Corrupted Knight] and [Withered Knight] Max HP +90%, ATK +30%, ASPD increased to 200 when enraged. [Corrupted Knight] DEF +100%, [Withered Knight] RES +25 and appears on field earlier",
         "points": 3,
-        "group": "hammer_bow",
+        "mutexGroupKey": "hammer_bow",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -329,7 +329,7 @@
     "hammer_bow_stealth_2": {
         "description": "[Corrupted Knight] and [Withered Knight] Max HP +50%, ATK +35%, special attack damage +50%. [Corrupted Knight] RES +15 and gains stealth.",
         "points": 2,
-        "group": "hammer_bow",
+        "mutexGroupKey": "hammer_bow",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -462,7 +462,7 @@
     "hammer_bow_stealth_3": {
         "description": "[Corrupted Knight] and [Withered Knight] Max HP +90%, ATK +50%, special attack damage +100%. [Corrupted Knight] RES +25 and gains stealth.",
         "points": 3,
-        "group": "hammer_bow",
+        "mutexGroupKey": "hammer_bow",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -595,7 +595,7 @@
     "lancer_knight_1": {
         "description": "[Bladehelm Knightclub Trainee] Max HP +30%, ATK +20%, ability cooldown -20%",
         "points": 1,
-        "group": "lancer_knight",
+        "mutexGroupKey": "lancer_knight",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -682,7 +682,7 @@
     "lancer_knight_2": {
         "description": "[Bladehelm Knightclub Trainee] Max HP +60%, ATK +40%, ability cooldown -40%",
         "points": 2,
-        "group": "lancer_knight",
+        "mutexGroupKey": "lancer_knight",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -769,7 +769,7 @@
     "lancer_knight_3": {
         "description": "[Bladehelm Knightclub Trainee] Max HP +80%, ATK +60%, ability cooldown -60%, right side will spawn 1 additional Trainee",
         "points": 3,
-        "group": "lancer_knight",
+        "mutexGroupKey": "lancer_knight",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -874,7 +874,7 @@
     "enemy_atk_up_1": {
         "description": "All enemies ATK +15%",
         "points": 1,
-        "group": "enemy_atk_up",
+        "mutexGroupKey": "enemy_atk_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -897,7 +897,7 @@
     "enemy_atk_up_2": {
         "description": "All enemies ATK +35%",
         "points": 2,
-        "group": "enemy_atk_up",
+        "mutexGroupKey": "enemy_atk_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -920,7 +920,7 @@
     "enemy_atk_up_3": {
         "description": "All enemies ATK +65%",
         "points": 3,
-        "group": "enemy_atk_up",
+        "mutexGroupKey": "enemy_atk_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -943,7 +943,7 @@
     "enemy_hp_up_1": {
         "description": "All enemies Max HP +30%",
         "points": 1,
-        "group": "enemy_hp_up",
+        "mutexGroupKey": "enemy_hp_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -966,7 +966,7 @@
     "enemy_hp_up_2": {
         "description": "All enemies Max HP +70%",
         "points": 2,
-        "group": "enemy_hp_up",
+        "mutexGroupKey": "enemy_hp_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -989,7 +989,7 @@
     "ally_atk_down_1": {
         "description": "Ally ATK -15%",
         "points": 1,
-        "group": "ally_atk_down",
+        "mutexGroupKey": "ally_atk_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -1012,7 +1012,7 @@
     "ally_atk_down_2": {
         "description": "Ally ATK -25%",
         "points": 2,
-        "group": "ally_atk_down",
+        "mutexGroupKey": "ally_atk_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -1035,7 +1035,7 @@
     "ally_atk_down_3": {
         "description": "Ally ATK -45%",
         "points": 3,
-        "group": "ally_atk_down",
+        "mutexGroupKey": "ally_atk_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -1058,7 +1058,7 @@
     "ally_def_res_down_1": {
         "description": "Allies DEF -30%, RES -5",
         "points": 1,
-        "group": "ally_def_res_down",
+        "mutexGroupKey": "ally_def_res_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -1099,7 +1099,7 @@
     "ally_def_res_down_2": {
         "description": "Allies DEF -50%, RES -15",
         "points": 2,
-        "group": "ally_def_res_down",
+        "mutexGroupKey": "ally_def_res_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -1140,7 +1140,7 @@
     "ally_def_res_down_3": {
         "description": "Allies DEF -70%, RES -30",
         "points": 3,
-        "group": "ally_def_res_down",
+        "mutexGroupKey": "ally_def_res_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -1181,7 +1181,7 @@
     "dp_down_1": {
         "description": "Natural DP Regeneration -25%",
         "points": 1,
-        "group": "dp_down",
+        "mutexGroupKey": "dp_down",
         "runes": [{
             "key": "global_cost_recovery_mul",
             "selector": {
@@ -1204,7 +1204,7 @@
     "dp_down_2": {
         "description": "Natural DP Regeneration -50%",
         "points": 2,
-        "group": "dp_down",
+        "mutexGroupKey": "dp_down",
         "runes": [{
             "key": "global_cost_recovery_mul",
             "selector": {
@@ -1227,7 +1227,7 @@
     "dp_down_3": {
         "description": "Natural DP Regeneration -75%",
         "points": 3,
-        "group": "dp_down",
+        "mutexGroupKey": "dp_down",
         "runes": [{
             "key": "global_cost_recovery_mul",
             "selector": {
@@ -1250,7 +1250,7 @@
     "max_squad_1": {
         "description": "Maximum 10 operators in squad",
         "points": 1,
-        "group": "max_squad_deploy_limit",
+        "mutexGroupKey": "max_squad_deploy_limit",
         "runes": [{
             "key": "global_squad_num_limit",
             "selector": {
@@ -1273,7 +1273,7 @@
     "max_squad_2": {
         "description": "Maximum 8 operators in squad",
         "points": 2,
-        "group": "max_squad_deploy_limit",
+        "mutexGroupKey": "max_squad_deploy_limit",
         "runes": [{
             "key": "global_squad_num_limit",
             "selector": {
@@ -1296,7 +1296,7 @@
     "max_squad_3": {
         "description": "Maximum 6 operators in squad",
         "points": 3,
-        "group": "max_squad_deploy_limit",
+        "mutexGroupKey": "max_squad_deploy_limit",
         "runes": [{
             "key": "global_squad_num_limit",
             "selector": {
@@ -1319,7 +1319,7 @@
     "deploy_limit_1": {
         "description": "Deploy Limit reduced to 7",
         "points": 1,
-        "group": "max_squad_deploy_limit",
+        "mutexGroupKey": "max_squad_deploy_limit",
         "runes": [{
             "key": "global_placable_char_num_add",
             "selector": {
@@ -1342,7 +1342,7 @@
     "deploy_limit_2": {
         "description": "Deploy Limit reduced to 6",
         "points": 2,
-        "group": "max_squad_deploy_limit",
+        "mutexGroupKey": "max_squad_deploy_limit",
         "runes": [{
             "key": "global_placable_char_num_add",
             "selector": {
@@ -1365,7 +1365,7 @@
     "tile_ban_left": {
         "description": "Left side 5 tiles forbid deployment",
         "points": 1,
-        "group": "tile_ban",
+        "mutexGroupKey": "tile_ban",
         "runes": [{
             "key": "global_forbid_location",
             "selector": {
@@ -1388,7 +1388,7 @@
     "tile_ban_right": {
         "description": "Right side 5 tiles forbid deployment",
         "points": 1,
-        "group": "tile_ban",
+        "mutexGroupKey": "tile_ban",
         "runes": [{
             "key": "global_forbid_location",
             "selector": {
@@ -1411,7 +1411,7 @@
     "tile_ban_both": {
         "description": "11 tiles forbid deployment",
         "points": 2,
-        "group": "tile_ban",
+        "mutexGroupKey": "tile_ban",
         "runes": [{
             "key": "global_forbid_location",
             "selector": {
@@ -1434,7 +1434,7 @@
     "guard_medic_1": {
         "description": "Guards and Medics DP cost tripled",
         "points": 1,
-        "group": "class_limit",
+        "mutexGroupKey": "class_limit",
         "runes": [{
             "key": "char_cost_mul",
             "selector": {
@@ -1457,7 +1457,7 @@
     "guard_medic_2": {
         "description": "No Guards or Medics",
         "points": 2,
-        "group": "class_limit",
+        "mutexGroupKey": "class_limit",
         "runes": [{
             "key": "char_exclude",
             "selector": {
@@ -1473,7 +1473,7 @@
     "caster_defender_1": {
         "description": "Caster And Defender DP cost tripled",
         "points": 1,
-        "group": "class_limit",
+        "mutexGroupKey": "class_limit",
         "runes": [{
             "key": "char_cost_mul",
             "selector": {
@@ -1496,7 +1496,7 @@
     "caster_defender_2": {
         "description": "No Casters Or Defenders",
         "points": 2,
-        "group": "class_limit",
+        "mutexGroupKey": "class_limit",
         "runes": [{
             "key": "char_exclude",
             "selector": {
@@ -1512,7 +1512,7 @@
     "caster_supporter_2": {
         "description": "No Casters Or Supporters",
         "points": 2,
-        "group": "class_limit",
+        "mutexGroupKey": "class_limit",
         "runes": [{
             "key": "char_exclude",
             "selector": {
@@ -1528,7 +1528,7 @@
     "max_hp_1": {
         "description": "HP seal decreased to 1",
         "points": 1,
-        "group": null,
+        "mutexGroupKey": null,
         "runes": [{
             "key": "global_lifepoint",
             "selector": {
@@ -1549,7 +1549,7 @@
     "ally_hp_down_2": {
         "description": "Ally Max HP -35%",
         "points": 2,
-        "group": "ally_hp_down",
+        "mutexGroupKey": "ally_hp_down",
         "runes": [{
             "key": "char_attribute_mul",
             "selector": {
@@ -1572,7 +1572,7 @@
     "crab_1": {
         "description": "[Training Pincerbeast] DEF +40%, RES +40",
         "points": 1,
-        "group": "crab",
+        "mutexGroupKey": "crab",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
@@ -1621,7 +1621,7 @@
     "enemy_aspd_up_1": {
         "description": "Enemy ASPD +25",
         "points": 1,
-        "group": "enemy_aspd_up",
+        "mutexGroupKey": "enemy_aspd_up",
         "runes": [{
             "key": "enemy_attribute_mul",
             "selector": {
