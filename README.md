@@ -55,9 +55,10 @@ CC Stages
 - [x] CC#5
 - [x] CC#4
 - [x] CC#3
-- [ ] CC#2
+- [x] CC#2
 - [ ] CC#1
 - [ ] CC#0
+- [ ] CC#Beta
 
 UI
 - [x] Add a UI for easy editing
