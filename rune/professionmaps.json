@@ -33,5 +33,6 @@
     "Caster, Supporter, Sniper": 50,
     "Caster, Supporter, Sniper, Medic": 58,
     "Specialist": 64,
-    "Specialist, Guard": 65
+    "Specialist, Guard": 65,
+    "Specialist, Caster": 96
 }

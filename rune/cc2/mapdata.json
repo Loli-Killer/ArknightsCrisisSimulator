@@ -1,0 +1,10 @@
+{
+    "levelId": "Obt/Rune/level_rune_04-01",
+    "mapId": "rune_04-01",
+    "code": "Chernobog",
+    "name": "Deserted Factory",
+    "loadingPicId": "loading4",
+    "description": "Reunion has occupied the deserted factories in Chernobog. The enemy has already set up their ambush, so please leverage the surrounding environment to your advantage.",
+    "picId": "ccmap_chbe_factory",
+    "logoPicId": "logo_cher"
+}
